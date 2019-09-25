@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpinPropellerX : MonoBehaviour
 {
     public float Speed = 10;
+
     // Start is called before the first frame update
     void Start()
     {
