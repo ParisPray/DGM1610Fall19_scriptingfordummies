@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.Space)) && isOnGround)
         {
             playerRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isOnGround = false;
+            isOnGround = true;
         }
     }
     private void OnCollisionEnter(Collision collision)
