@@ -22,7 +22,10 @@ public class MoveLeftX : MonoBehaviour
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
         }
-
+        else if (playerControllerScript.gameOver == true);
+        {
+            transform.Translate(Vector3.left )
+        }
         // If object goes off screen that is NOT the background, destroy it
         if (transform.position.x < leftBound && !gameObject.CompareTag("Background"))
         {
