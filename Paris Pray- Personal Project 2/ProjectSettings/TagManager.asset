@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Obstacle
+  - Undefined
   - Ground
+  - Treasure
+  - Text
   layers:
   - Default
   - TransparentFX
@@ -14,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - PostProcessing
   - 
   - 
   - 
